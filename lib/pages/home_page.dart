@@ -27,7 +27,9 @@ class _HomePageState extends State<HomePage> {
                   ),
                 )
               },
-              style: ElevatedButton.styleFrom(primary: Colors.blue[900]),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.blue[900],
+                  padding: const EdgeInsets.all(14.0)),
               child: const Text(
                 'Add',
                 style: TextStyle(fontSize: 18.0),
