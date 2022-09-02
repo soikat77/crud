@@ -8,6 +8,10 @@ class ListCasePage extends StatefulWidget {
   State<ListCasePage> createState() => _ListCasePageState();
 }
 
+deleteCase(id) {
+  print("Case Deleted $id");
+}
+
 class _ListCasePageState extends State<ListCasePage> {
   @override
   Widget build(BuildContext context) {
@@ -108,6 +112,10 @@ class _ListCasePageState extends State<ListCasePage> {
                             ),
                           },
                           icon: const Icon(Icons.edit),
+                        ),
+                        IconButton(
+                          onPressed: () => {deleteCase(1)},
+                          icon: const Icon(Icons.delete),
                         )
                       ],
                     ),
