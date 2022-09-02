@@ -23,12 +23,12 @@ class _HomePageState extends State<HomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => AddCasePage(),
+                    builder: (context) => const AddCasePage(),
                   ),
                 )
               },
               style: ElevatedButton.styleFrom(
-                  primary: Colors.blue[900],
+                  backgroundColor: Colors.blue[900],
                   padding: const EdgeInsets.all(14.0)),
               child: const Text(
                 'Add',
@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      body: ListCasePage(),
+      body: const ListCasePage(),
     );
   }
 }

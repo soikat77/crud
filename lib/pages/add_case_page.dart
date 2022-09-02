@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddCasePage extends StatefulWidget {
-  AddCasePage({Key? key}) : super(key: key);
+  const AddCasePage({Key? key}) : super(key: key);
 
   @override
   State<AddCasePage> createState() => _AddCasePageState();

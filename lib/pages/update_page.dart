@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class UpdatePage extends StatefulWidget {
-  UpdatePage({Key? key}) : super(key: key);
+  const UpdatePage({Key? key}) : super(key: key);
 
   @override
   State<UpdatePage> createState() => _UpdatePageState();
